@@ -34527,7 +34527,7 @@ var Timer = function Timer(_ref) {
     className: "Timer"
   }, _react.default.createElement("h1", {
     id: "timer-label"
-  }, mode === "session" ? "Session " : "Break "), _react.default.createElement("h1", {
+  }, mode === "session" ? "Work " : "Break "), _react.default.createElement("h1", {
     id: "time-left"
   }, time));
 };
@@ -44496,14 +44496,14 @@ function (_React$Component) {
       return _react.default.createElement("div", null, _react.default.createElement(_header.default, null), _react.default.createElement("div", {
         className: "settings"
       }, _react.default.createElement(_setTimer.default, {
-        type: "break",
-        label: "Break Length",
-        value: this.state.breakValue,
+        type: "session",
+        label: "Work",
+        value: this.state.sessionValue,
         handleClick: this.onSetTimers
       }), _react.default.createElement(_setTimer.default, {
-        type: "session",
-        label: "Session Length",
-        value: this.state.sessionValue,
+        type: "break",
+        label: "Break",
+        value: this.state.breakValue,
         handleClick: this.onSetTimers
       })), _react.default.createElement(_timer.default, {
         mode: this.state.mode,
@@ -44526,7 +44526,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(App, null), document.querySelector("#root"));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./components/header":"components/header.js","./components/set-timer":"components/set-timer.js","./components/timer":"components/timer.js","./components/controls":"components/controls.js","@fortawesome/fontawesome-svg-core":"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js"}],"../../../../../../../../../.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./components/header":"components/header.js","./components/set-timer":"components/set-timer.js","./components/timer":"components/timer.js","./components/controls":"components/controls.js","@fortawesome/fontawesome-svg-core":"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -44554,7 +44554,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59829" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64667" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -44729,5 +44729,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../../../../.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","script.js"], null)
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","script.js"], null)
 //# sourceMappingURL=/script.75da7f30.js.map

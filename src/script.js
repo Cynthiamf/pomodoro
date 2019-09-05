@@ -131,15 +131,15 @@ class App extends React.Component {
                 <Header />
                 <div className={"settings"}>
                     <SetTimer
-                        type={"break"}
-                        label={"Break Length"}
-                        value={this.state.breakValue}
+                        type={"session"}
+                        label={"Work"}
+                        value={this.state.sessionValue}
                         handleClick={this.onSetTimers}
                     />
                     <SetTimer
-                        type={"session"}
-                        label={"Session Length"}
-                        value={this.state.sessionValue}
+                        type={"break"}
+                        label={"Break"}
+                        value={this.state.breakValue}
                         handleClick={this.onSetTimers}
                     />
                 </div>
