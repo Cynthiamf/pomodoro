@@ -1,0 +1,65 @@
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
+#break-length,
+#session-length,
+#time-left {
+  font-family: 'Orbitron', sans-serif;
+}
+
+#break-decrement,
+#session-decrement {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#start_stop {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+
+#reset {
+  padding: 10px;
+}
+
+#break-increment,
+#session-increment {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SetTimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SetTimer-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Controls {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

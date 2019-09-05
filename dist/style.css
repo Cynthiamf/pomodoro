@@ -1,0 +1,30 @@
+* {
+  font-family: 'Roboto'
+}
+
+.settings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.SetTimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SetTimer-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.Timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Controls {
+  display: flex;
+  justify-content: center;
+}
