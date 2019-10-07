@@ -18,8 +18,7 @@
 
 ## Pomodoro online
 
-[Click here](https://pomodoro-cynth
-ia.netlify.com/)
+[Click here](https://pomodoro-cynthia.netlify.com/)
 
 ## Install
 
