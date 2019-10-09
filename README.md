@@ -57,5 +57,3 @@ Give a ⭐️ if this project helped you!
 Copyright © 2019 [Cynthia M.](https://github.com/Cynthiamf).<br />
 This project is [ISC](https://github.com/Cynthiamf/pomodoro/blob/master/LICENSE) licensed.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
